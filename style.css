@@ -1,12 +1,17 @@
 body {
-  background: url(backgroundImg.jpg) no-repeat center center fixed;
+  /* background: url(backgroundImg.jpg) no-repeat center center fixed;
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:cover; */
+  background: #4B79A1;
+  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+  background: linear-gradient(to right, #283E51, #4B79A1); /
 }
 
 h1 {
-  font-size: 100px;
-  color: white;
+  font-size: 75px;
+  color: rgb(201, 104, 104);
   text-align: center;
-  border-bottom: 15px solid black;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(22, 58, 103);
 }
